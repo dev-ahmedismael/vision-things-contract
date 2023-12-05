@@ -61,7 +61,7 @@ const ContractPayment = () => {
     amount: 100,
     currency: "SAR",
     description: "Payment for order #",
-    callback_url: "/payment-redirect",
+    callback_url: "https://www.vision-things.com/ar/payment-redirect",
     source: {
       type: "creditcard",
       methods: ["creditcard"],
